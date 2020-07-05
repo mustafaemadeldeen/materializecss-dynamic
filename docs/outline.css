@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'outline';
-  src:  url('../fonts/outline.eot?oe4372');
-  src:  url('../fonts/outline.eot?oe4372#iefix') format('embedded-opentype'),
-    url('../fonts/outline.ttf?oe4372') format('truetype'),
-    url('../fonts/outline.woff?oe4372') format('woff'),
-    url('../fonts/outline.svg?oe4372#outline') format('svg');
+  src:  url('outline.eot?oe4372');
+  src:  url('fonts/outline.eot?oe4372#iefix') format('embedded-opentype'),
+    url('fonts/outline.ttf?oe4372') format('truetype'),
+    url('fonts/outline.woff?oe4372') format('woff'),
+    url('fonts/outline.svg?oe4372#outline') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
