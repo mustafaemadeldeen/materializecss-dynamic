@@ -34,6 +34,16 @@
   font-family: 'outline' !important;
 }
 
+.horizontal-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.horizontal-list li {
+  margin: auto 10px;
+}
+
  /*---------- Coloring System ----------*/
  /*
   * 1 - coloring system from materilaize css framework
@@ -1067,6 +1077,10 @@ ul:not(.browser-default) > li {
   list-style-type: none;
 }
 
+ul.browser-default > li {
+  line-height: 2.5 !important;
+}
+
 a {
   color: #039be5;
   text-decoration: none;
@@ -1928,17 +1942,17 @@ html[dir = rtl] .progress .indeterminate:after {
 }
 
 html:not([dir = rtl]) .dynamic-align {
-  text-align: left;
+  text-align: left !important;
 }
 html[dir = rtl] .dynamic-align {
-  text-align: right;
+  text-align: right !important;
 }
 
 html:not([dir = rtl]) .dynamic-align-reverse {
-  text-align: right;
+  text-align: right !important;
 }
 html[dir = rtl] .dynamic-align-reverse {
-  text-align: left;
+  text-align: left !important;
 }
 
 .center, .center-align {
@@ -6191,23 +6205,41 @@ input[type=range]::-ms-thumb {
   display: inline-block;
   font-weight: 300;
   color: #757575;
-  padding-left: 16px;
   height: 1.5rem;
   line-height: 1.5rem;
   letter-spacing: .4;
   display: inline-block;
 }
 
+html:not([dir = rtl]) .table-of-contents a {
+  padding-left: 16px;
+}
+html[dir = rtl] .table-of-contents a {
+  padding-right: 16px;
+}
+
 .table-of-contents a:hover {
   color: #a8a8a8;
+}
+html:not([dir = rtl]) .table-of-contents a:hover {
   padding-left: 15px;
   border-left: 1px solid #ee6e73;
+}
+html[dir = rtl] .table-of-contents a:hover {
+  padding-right: 15px;
+  border-right: 1px solid #ee6e73;
 }
 
 .table-of-contents a.active {
   font-weight: 500;
+}
+html:not([dir = rtl]) .table-of-contents a.active {
   padding-left: 14px;
   border-left: 2px solid #ee6e73;
+}
+html[dir = rtl] .table-of-contents a.active {
+  padding-right: 14px;
+  border-right: 2px solid #ee6e73;
 }
 
 .sidenav {

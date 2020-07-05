@@ -512,7 +512,7 @@
 .outline-maximize:before {
   content: "\e9a1";
 }
-.outline-maximize-2:before {
+.outline-maximize-arrow:before {
   content: "\e9a2";
 }
 .outline-meh:before {
@@ -536,7 +536,7 @@
 .outline-minimize:before {
   content: "\e9a9";
 }
-.outline-minimize-2:before {
+.outline-minimize-arrow:before {
   content: "\e9aa";
 }
 .outline-minus:before {

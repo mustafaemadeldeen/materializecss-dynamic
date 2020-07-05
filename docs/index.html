@@ -1,11 +1,2232 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>Welcome to pause frame work v1.0.0</h1>
-    <h6>based on materializecss</h6>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>materializecss dynamic documention</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/materialize-dynamic.css" />
+  <style>
+    .footer-link {
+      transition: 300ms ease opacity;
+      margin-bottom: .8rem;
+      display: block;
+      width: max-content;
+    }
+
+    .footer-link:hover {
+      opacity: .6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html"><img src="pause-white.svg" alt="materialize dynamic css"
+          style="transform: translateY(21%); width:40px;"></a>
+      <ul class="float-dynamic-reverse hide-on-med-and-down">
+        <li> <a href="https://twitter.com/mustafaemadedin"><i class="outline outline-twitter"></i></a> </li>
+        <li> <a href="https://github.com/mustafaemadeldeen/materializecss-dynamic"><i
+              class="outline outline-github"></i></a> </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div>
+    <div class="row">
+      <div class="col s12 m9 l10">
+        <div id="introduction" class="section scrollspy">
+          <p>
+          <h2>Introduction</h2>
+          <ul class="browser-default">
+            <li>
+              There's no need to use multiple style files to make changes on page direction all you need to use ( dir )
+              attribute at your html tag
+            </li>
+            <li>
+              materialize dynamic based on materializecss so be sure you will write materializecss classes and methods
+            </li>
+            <li>
+              our new design system comes with some new features like:
+              <ul class="browser-default">
+                <li>outline iconic font</li>
+                <li>
+                  pre-built font family for rtl & ltr languages ( you can use both together )
+                  <ul class="browser-default">
+                    <li>Noto Naskh Arabic ( خط نسخ عربي افتراضي )</li>
+                    <li>Raleway</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          </p>
+        </div>
+
+        <div id="helpers" class="section scrollspy">
+          <p>
+          <h2>Helpers</h2>
+          <ul class="browser-default">
+            <li>.left: class for floating left</li>
+            <li>.right: class for floating right</li>
+            <li>.float-dynamic: class for floating left if document direction is left & floating right if document
+              direction is right</li>
+            <li>.float-dynamic-reverse: class for floating left if document direction is right & floating right if
+              document direction is left</li>
+            <li>.align-left: class for left align</li>
+            <li>.right-align: class for right align</li>
+          </ul>
+          </p>
+        </div>
+
+        <div id="icons" class="section scrollspy">
+
+          <h2>Icons</h2>
+          <div class="row">
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-activity"></i></h3>
+              <p>
+                outline-activity
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-airplay"></i></h3>
+              <p>
+                outline-airplay
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-alert-circle"></i></h3>
+              <p>
+                outline-alert-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-alert-octagon"></i></h3>
+              <p>
+                outline-alert-octagon
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-alert-triangle"></i></h3>
+              <p>
+                outline-alert-triangle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-align-center"></i></h3>
+              <p>
+                outline-align-center
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-align-justify"></i></h3>
+              <p>
+                outline-align-justify
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-align-left"></i></h3>
+              <p>
+                outline-align-left
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-align-right"></i></h3>
+              <p>
+                outline-align-right
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-anchor"></i></h3>
+              <p>
+                outline-anchor
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-aperture"></i></h3>
+              <p>
+                outline-aperture
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-apple"></i></h3>
+              <p>
+                outline-apple
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-archive"></i></h3>
+              <p>
+                outline-archive
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-down"></i></h3>
+              <p>
+                outline-arrow-down
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-down-circle"></i></h3>
+              <p>
+                outline-arrow-down-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-down-left"></i></h3>
+              <p>
+                outline-arrow-down-left
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-down-right"></i></h3>
+              <p>
+                outline-arrow-down-right
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-left"></i></h3>
+              <p>
+                outline-arrow-left
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-left-circle"></i></h3>
+              <p>
+                outline-arrow-left-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-right"></i></h3>
+              <p>
+                outline-arrow-right
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-right-circle"></i></h3>
+              <p>
+                outline-arrow-right-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-up"></i></h3>
+              <p>
+                outline-arrow-up
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-up-circle"></i></h3>
+              <p>
+                outline-arrow-up-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-up-left"></i></h3>
+              <p>
+                outline-arrow-up-left
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-arrow-up-right"></i></h3>
+              <p>
+                outline-arrow-up-right
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-at-sign"></i></h3>
+              <p>
+                outline-at-sign
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-award"></i></h3>
+              <p>
+                outline-award
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-bar-chart"></i></h3>
+              <p>
+                outline-bar-chart
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-bar-chart-random"></i></h3>
+              <p>
+                outline-bar-chart-random
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-battery"></i></h3>
+              <p>
+                outline-battery
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-battery-charging"></i></h3>
+              <p>
+                outline-battery-charging
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-bell"></i></h3>
+              <p>
+                outline-bell
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-bell-off"></i></h3>
+              <p>
+                outline-bell-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-bluetooth"></i></h3>
+              <p>
+                outline-bluetooth
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-bold"></i></h3>
+              <p>
+                outline-bold
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-book"></i></h3>
+              <p>
+                outline-book
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-bookmark"></i></h3>
+              <p>
+                outline-bookmark
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-book-open"></i></h3>
+              <p>
+                outline-book-open
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-box"></i></h3>
+              <p>
+                outline-box
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-briefcase"></i></h3>
+              <p>
+                outline-briefcase
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-calendar"></i></h3>
+              <p>
+                outline-calendar
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-camera"></i></h3>
+              <p>
+                outline-camera
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-camera-off"></i></h3>
+              <p>
+                outline-camera-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-cast"></i></h3>
+              <p>
+                outline-cast
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-check"></i></h3>
+              <p>
+                outline-check
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-check-circle"></i></h3>
+              <p>
+                outline-check-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-check-square"></i></h3>
+              <p>
+                outline-check-square
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-chevron-down"></i></h3>
+              <p>
+                outline-chevron-down
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-chevron-left"></i></h3>
+              <p>
+                outline-chevron-left
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-chevron-right"></i></h3>
+              <p>
+                outline-chevron-right
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-chevrons-down"></i></h3>
+              <p>
+                outline-chevrons-down
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-chevrons-left"></i></h3>
+              <p>
+                outline-chevrons-left
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-chevrons-right"></i></h3>
+              <p>
+                outline-chevrons-right
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-chevrons-up"></i></h3>
+              <p>
+                outline-chevrons-up
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-chevron-up"></i></h3>
+              <p>
+                outline-chevron-up
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-chrome"></i></h3>
+              <p>
+                outline-chrome
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-circle"></i></h3>
+              <p>
+                outline-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-clipboard"></i></h3>
+              <p>
+                outline-clipboard
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-clock"></i></h3>
+              <p>
+                outline-clock
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-close"></i></h3>
+              <p>
+                outline-close
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-close-circle"></i></h3>
+              <p>
+                outline-close-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-close-octagon"></i></h3>
+              <p>
+                outline-close-octagon
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-close-square"></i></h3>
+              <p>
+                outline-close-square
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-cloud"></i></h3>
+              <p>
+                outline-cloud
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-cloud-drizzle"></i></h3>
+              <p>
+                outline-cloud-drizzle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-cloud-lightning"></i></h3>
+              <p>
+                outline-cloud-lightning
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-cloud-off"></i></h3>
+              <p>
+                outline-cloud-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-cloud-rain"></i></h3>
+              <p>
+                outline-cloud-rain
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-cloud-snow"></i></h3>
+              <p>
+                outline-cloud-snow
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-code"></i></h3>
+              <p>
+                outline-code
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-codepen"></i></h3>
+              <p>
+                outline-codepen
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-codesandbox"></i></h3>
+              <p>
+                outline-codesandbox
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-coffee"></i></h3>
+              <p>
+                outline-coffee
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-columns"></i></h3>
+              <p>
+                outline-columns
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-command"></i></h3>
+              <p>
+                outline-command
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-compass"></i></h3>
+              <p>
+                outline-compass
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-copy"></i></h3>
+              <p>
+                outline-copy
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-corner-down-left"></i></h3>
+              <p>
+                outline-corner-down-left
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-corner-down-right"></i></h3>
+              <p>
+                outline-corner-down-right
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-corner-left-down"></i></h3>
+              <p>
+                outline-corner-left-down
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-corner-left-up"></i></h3>
+              <p>
+                outline-corner-left-up
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-corner-right-down"></i></h3>
+              <p>
+                outline-corner-right-down
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-corner-right-up"></i></h3>
+              <p>
+                outline-corner-right-up
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-corner-up-left"></i></h3>
+              <p>
+                outline-corner-up-left
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-corner-up-right"></i></h3>
+              <p>
+                outline-corner-up-right
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-cpu"></i></h3>
+              <p>
+                outline-cpu
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-credit-card"></i></h3>
+              <p>
+                outline-credit-card
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-crop"></i></h3>
+              <p>
+                outline-crop
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-crosshair"></i></h3>
+              <p>
+                outline-crosshair
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-database"></i></h3>
+              <p>
+                outline-database
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-disc"></i></h3>
+              <p>
+                outline-disc
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-dollar-sign"></i></h3>
+              <p>
+                outline-dollar-sign
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-download"></i></h3>
+              <p>
+                outline-download
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-download-cloud"></i></h3>
+              <p>
+                outline-download-cloud
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-droplet"></i></h3>
+              <p>
+                outline-droplet
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-edit"></i></h3>
+              <p>
+                outline-edit
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-edit-minus"></i></h3>
+              <p>
+                outline-edit-minus
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-edit-pen"></i></h3>
+              <p>
+                outline-edit-pen
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-external-link"></i></h3>
+              <p>
+                outline-external-link
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-eye"></i></h3>
+              <p>
+                outline-eye
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-eye-off"></i></h3>
+              <p>
+                outline-eye-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-facebook"></i></h3>
+              <p>
+                outline-facebook
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-facebook-outline"></i></h3>
+              <p>
+                outline-facebook-outline
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-facebook-square"></i></h3>
+              <p>
+                outline-facebook-square
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-fast-forward"></i></h3>
+              <p>
+                outline-fast-forward
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-feather"></i></h3>
+              <p>
+                outline-feather
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-figma"></i></h3>
+              <p>
+                outline-figma
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-file"></i></h3>
+              <p>
+                outline-file
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-file-minus"></i></h3>
+              <p>
+                outline-file-minus
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-file-plus"></i></h3>
+              <p>
+                outline-file-plus
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-file-text"></i></h3>
+              <p>
+                outline-file-text
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-film"></i></h3>
+              <p>
+                outline-film
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-filter"></i></h3>
+              <p>
+                outline-filter
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-flag"></i></h3>
+              <p>
+                outline-flag
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-folder"></i></h3>
+              <p>
+                outline-folder
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-framer"></i></h3>
+              <p>
+                outline-framer
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-frown"></i></h3>
+              <p>
+                outline-frown
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-gift"></i></h3>
+              <p>
+                outline-gift
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-git-branch"></i></h3>
+              <p>
+                outline-git-branch
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-git-commit"></i></h3>
+              <p>
+                outline-git-commit
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-github"></i></h3>
+              <p>
+                outline-github
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-gitlab"></i></h3>
+              <p>
+                outline-gitlab
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-git-merge"></i></h3>
+              <p>
+                outline-git-merge
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-git-pull-request"></i></h3>
+              <p>
+                outline-git-pull-request
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-globe"></i></h3>
+              <p>
+                outline-globe
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-grid"></i></h3>
+              <p>
+                outline-grid
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-hard-drive"></i></h3>
+              <p>
+                outline-hard-drive
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-hash"></i></h3>
+              <p>
+                outline-hash
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-headphones"></i></h3>
+              <p>
+                outline-headphones
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-heart"></i></h3>
+              <p>
+                outline-heart
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-heart-outline"></i></h3>
+              <p>
+                outline-heart-outline
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-help-circle"></i></h3>
+              <p>
+                outline-help-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-hexagon"></i></h3>
+              <p>
+                outline-hexagon
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-home"></i></h3>
+              <p>
+                outline-home
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-hexagon"></i></h3>
+              <p>
+                outline-hexagon
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-image"></i></h3>
+              <p>
+                outline-image
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-inbox"></i></h3>
+              <p>
+                outline-inbox
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-info"></i></h3>
+              <p>
+                outline-info
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-instagram"></i></h3>
+              <p>
+                outline-instagram
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-ios"></i></h3>
+              <p>
+                outline-ios
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-italic"></i></h3>
+              <p>
+                outline-italic
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-key"></i></h3>
+              <p>
+                outline-key
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-layers"></i></h3>
+              <p>
+                outline-layers
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-layout"></i></h3>
+              <p>
+                outline-layout
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-life-buoy"></i></h3>
+              <p>
+                outline-life-buoy
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-link"></i></h3>
+              <p>
+                outline-link
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-link-x"></i></h3>
+              <p>
+                outline-link-x
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-linkedin"></i></h3>
+              <p>
+                outline-linkedin
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-linux"></i></h3>
+              <p>
+                outline-linux
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-list"></i></h3>
+              <p>
+                outline-list
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-loader"></i></h3>
+              <p>
+                outline-loader
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-lock"></i></h3>
+              <p>
+                outline-lock
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-log-in"></i></h3>
+              <p>
+                outline-log-in
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-log-out"></i></h3>
+              <p>
+                outline-log-out
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-macintosh"></i></h3>
+              <p>
+                outline-macintosh
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-mail"></i></h3>
+              <p>
+                outline-mail
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-map"></i></h3>
+              <p>
+                outline-map
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-map-pin"></i></h3>
+              <p>
+                outline-map-pin
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-mastercard-square"></i></h3>
+              <p>
+                outline-mastercard-square
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-maximize"></i></h3>
+              <p>
+                outline-maximize
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-maximize-arrow"></i></h3>
+              <p>
+                outline-maximize-arrow
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-meh"></i></h3>
+              <p>
+                outline-meh
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-menu"></i></h3>
+              <p>
+                outline-menu
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-message-circle"></i></h3>
+              <p>
+                outline-message-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-message-square"></i></h3>
+              <p>
+                outline-message-square
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-mic"></i></h3>
+              <p>
+                outline-mic
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-mic-off"></i></h3>
+              <p>
+                outline-mic-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-minimize"></i></h3>
+              <p>
+                outline-minimize
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-minimize-arrow"></i></h3>
+              <p>
+                outline-minimize-arrow
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-minus"></i></h3>
+              <p>
+                outline-minus
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-minus-circle"></i></h3>
+              <p>
+                outline-minus-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-minus-square"></i></h3>
+              <p>
+                outline-minus-square
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-monitor"></i></h3>
+              <p>
+                outline-monitor
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-moon"></i></h3>
+              <p>
+                outline-moon
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-more-horizontal"></i></h3>
+              <p>
+                outline-more-horizontal
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-more-vertical"></i></h3>
+              <p>
+                outline-more-vertical
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-mouse-pointer"></i></h3>
+              <p>
+                outline-mouse-pointer
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-move"></i></h3>
+              <p>
+                outline-move
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-music"></i></h3>
+              <p>
+                outline-music
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-navigation"></i></h3>
+              <p>
+                outline-navigation
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-navigation-y"></i></h3>
+              <p>
+                outline-navigation-y
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-octagon"></i></h3>
+              <p>
+                outline-octagon
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-package"></i></h3>
+              <p>
+                outline-package
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-paperclip"></i></h3>
+              <p>
+                outline-paperclip
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-pause"></i></h3>
+              <p>
+                outline-pause
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-pause-circle"></i></h3>
+              <p>
+                outline-pause-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-pen-tool"></i></h3>
+              <p>
+                outline-pen-tool
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-percent"></i></h3>
+              <p>
+                outline-percent
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-phone"></i></h3>
+              <p>
+                outline-phone
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-phone-call"></i></h3>
+              <p>
+                outline-phone-call
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-phone-forwarded"></i></h3>
+              <p>
+                outline-phone-forwarded
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-phone-incoming"></i></h3>
+              <p>
+                outline-phone-incoming
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-phone-missed"></i></h3>
+              <p>
+                outline-phone-missed
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-phone-off"></i></h3>
+              <p>
+                outline-phone-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-phone-outgoing"></i></h3>
+              <p>
+                outline-phone-outgoing
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-pie-chart"></i></h3>
+              <p>
+                outline-pie-chart
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-play"></i></h3>
+              <p>
+                outline-play
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-play-circle"></i></h3>
+              <p>
+                outline-play-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-plus"></i></h3>
+              <p>
+                outline-plus
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-plus-circle"></i></h3>
+              <p>
+                outline-plus-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-plus-square"></i></h3>
+              <p>
+                outline-plus-square
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-pocket"></i></h3>
+              <p>
+                outline-pocket
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-power"></i></h3>
+              <p>
+                outline-power
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-printer"></i></h3>
+              <p>
+                outline-printer
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-radio"></i></h3>
+              <p>
+                outline-radio
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-refresh-ccw"></i></h3>
+              <p>
+                outline-refresh-ccw
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-refresh-cw"></i></h3>
+              <p>
+                outline-refresh-cw
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-repeat"></i></h3>
+              <p>
+                outline-repeat
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-rewind"></i></h3>
+              <p>
+                outline-rewind
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-rotate-ccw"></i></h3>
+              <p>
+                outline-rotate-ccw
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-rotate-cw"></i></h3>
+              <p>
+                outline-rotate-cw
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-rss"></i></h3>
+              <p>
+                outline-rss
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-save"></i></h3>
+              <p>
+                outline-save
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-scissors"></i></h3>
+              <p>
+                outline-scissors
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-search"></i></h3>
+              <p>
+                outline-search
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-send"></i></h3>
+              <p>
+                outline-send
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-server"></i></h3>
+              <p>
+                outline-server
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-settings"></i></h3>
+              <p>
+                outline-settings
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-share"></i></h3>
+              <p>
+                outline-share
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-share-upload"></i></h3>
+              <p>
+                outline-share-upload
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-shield"></i></h3>
+              <p>
+                outline-shield
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-shield-off"></i></h3>
+              <p>
+                outline-shield-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-shopping-bag"></i></h3>
+              <p>
+                outline-shopping-bag
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-shopping-cart"></i></h3>
+              <p>
+                outline-shopping-cart
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-shuffle"></i></h3>
+              <p>
+                outline-shuffle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-sidebar"></i></h3>
+              <p>
+                outline-sidebar
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-skip-back"></i></h3>
+              <p>
+                outline-skip-back
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-skip-forward"></i></h3>
+              <p>
+                outline-skip-forward
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-slack"></i></h3>
+              <p>
+                outline-slack
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-slash-circle"></i></h3>
+              <p>
+                outline-slash-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-sliders"></i></h3>
+              <p>
+                outline-sliders
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-smartphone"></i></h3>
+              <p>
+                outline-smartphone
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-smile"></i></h3>
+              <p>
+                outline-smile
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-speaker"></i></h3>
+              <p>
+                outline-speaker
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-square"></i></h3>
+              <p>
+                outline-square
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-star"></i></h3>
+              <p>
+                outline-star
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-stop-circle"></i></h3>
+              <p>
+                outline-stop-circle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-store-outline"></i></h3>
+              <p>
+                outline-store-outline
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-sun"></i></h3>
+              <p>
+                outline-sun
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-sunrise"></i></h3>
+              <p>
+                outline-sunrise
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-sunset"></i></h3>
+              <p>
+                outline-sunset
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-tablet"></i></h3>
+              <p>
+                outline-tablet
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-tag"></i></h3>
+              <p>
+                outline-tag
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-target"></i></h3>
+              <p>
+                outline-target
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-telegram"></i></h3>
+              <p>
+                outline-telegram
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-terminal"></i></h3>
+              <p>
+                outline-terminal
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-thermometer"></i></h3>
+              <p>
+                outline-thermometer
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-thumbs-down"></i></h3>
+              <p>
+                outline-thumbs-down
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-thumbs-up"></i></h3>
+              <p>
+                outline-thumbs-up
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-toggle-left"></i></h3>
+              <p>
+                outline-toggle-left
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-toggle-right"></i></h3>
+              <p>
+                outline-toggle-right
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-tool"></i></h3>
+              <p>
+                outline-tool
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-trash-empty"></i></h3>
+              <p>
+                outline-trash-empty
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-trash-fill"></i></h3>
+              <p>
+                outline-trash-fill
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-trello"></i></h3>
+              <p>
+                outline-trello
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-trending-down"></i></h3>
+              <p>
+                outline-trending-down
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-trending-up"></i></h3>
+              <p>
+                outline-trending-up
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-triangle"></i></h3>
+              <p>
+                outline-triangle
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-truck"></i></h3>
+              <p>
+                outline-truck
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-tv"></i></h3>
+              <p>
+                outline-tv
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-twitch"></i></h3>
+              <p>
+                outline-twitch
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-twitter"></i></h3>
+              <p>
+                outline-twitter
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-type"></i></h3>
+              <p>
+                outline-type
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-ubuntu"></i></h3>
+              <p>
+                outline-ubuntu
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-umbrella"></i></h3>
+              <p>
+                outline-umbrella
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-underline"></i></h3>
+              <p>
+                outline-underline
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-unlock"></i></h3>
+              <p>
+                outline-unlock
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-upload"></i></h3>
+              <p>
+                outline-upload
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-upload-cloud"></i></h3>
+              <p>
+                outline-upload-cloud
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-user"></i></h3>
+              <p>
+                outline-user
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-user-check"></i></h3>
+              <p>
+                outline-user-check
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-user-minus"></i></h3>
+              <p>
+                outline-user-minus
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-user-plus"></i></h3>
+              <p>
+                outline-user-plus
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-users"></i></h3>
+              <p>
+                outline-users
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-user-x"></i></h3>
+              <p>
+                outline-user-x
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-video"></i></h3>
+              <p>
+                outline-video
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-video-off"></i></h3>
+              <p>
+                outline-video-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-visa"></i></h3>
+              <p>
+                outline-visa
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-visa-details"></i></h3>
+              <p>
+                outline-visa-details
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-voicemail"></i></h3>
+              <p>
+                outline-voicemail
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-volume-heigh"></i></h3>
+              <p>
+                outline-volume-heigh
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-volume-low"></i></h3>
+              <p>
+                outline-volume-low
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-volume-medium"></i></h3>
+              <p>
+                outline-volume-medium
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-volume-mute"></i></h3>
+              <p>
+                outline-volume-mute
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-watch"></i></h3>
+              <p>
+                outline-watch
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-whatsaap"></i></h3>
+              <p>
+                outline-whatsaap
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-whatsapp-outline"></i></h3>
+              <p>
+                outline-whatsapp-outline
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-wifi"></i></h3>
+              <p>
+                outline-wifi
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-wifi-off"></i></h3>
+              <p>
+                outline-wifi-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-wind"></i></h3>
+              <p>
+                outline-wind
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-windows"></i></h3>
+              <p>
+                outline-windows
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-windows-outline"></i></h3>
+              <p>
+                outline-windows-outline
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-youtube-play"></i></h3>
+              <p>
+                outline-youtube-play
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-zap"></i></h3>
+              <p>
+                outline-zap
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-zap-off"></i></h3>
+              <p>
+                outline-zap-off
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-zoom-in"></i></h3>
+              <p>
+                outline-zoom-in
+              </p>
+            </div>
+
+            <div class="col s6 m3 l2 center">
+              <h3><i class="outline outline-zoom-out"></i></h3>
+              <p>
+                outline-zoom-out
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col hide-on-small-only m3 l2">
+        <ul class="section table-of-contents fixed">
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#helpers">Helpers</a></li>
+          <li><a href="#icons">Icons</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">
+            <img src="materialize.svg" alt="materializecss">
+          </h5>
+          <p>
+            materialize-dynamic is a modification for materializecss to become a direction dynamic it's based on it so
+            be sure when you use materialize-dynamic you are using materializecss we recommend using materializecss
+            documentation for full features
+          </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Materializecss</h5>
+          <ul>
+            <li><a class="footer-link grey-text text-lighten-3" href="https://materializecss.com/about.html">about</a>
+            </li>
+            <li><a class="footer-link grey-text text-lighten-3" href="https://materializecss.com/">documentation</a>
+            </li>
+            <li><a class="footer-link grey-text text-lighten-3"
+                href="https://materializecss.com/showcase.html">showcase</a></li>
+            <li><a class="footer-link grey-text text-lighten-3" href="https://materializecss.com/themes.html">Themes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Copyright &copy; 2020
+        <ul class="horizontal-list float-dynamic-reverse">
+          <li><a href="https://twitter.com/mustafaemadedin"><i class="outline outline-twitter white-text"></i></a></li>
+          <li><a href="https://github.com/mustafaemadeldeen/materializecss-dynamic"><i
+                class="outline outline-github white-text"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="../js/jquery-3.5.1.min.js"></script>
+  <script src="../js/materialize-dynamic.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+
 </html>
